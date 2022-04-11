@@ -18,7 +18,7 @@ const Menp=()=>{
     return(
         <>
         <div className="menproduct">
-        <h1>This is Men Product  </h1>
+        <h1>All Product  </h1>
         <div className="pro__container">
             {fake.map((values)=>{
                 return(

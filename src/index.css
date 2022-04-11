@@ -17,8 +17,13 @@ color:#fff;
 text-transform: uppercase;
 }
 .menproduct {
+  padding: 10px;
+  margin-top: -77px!important;
   max-width: 1000px;
   margin: auto;
+}
+.menproduct > h1 {
+  text-align: center;
 }
 .pro__container {
   display: grid;
@@ -27,7 +32,6 @@ text-transform: uppercase;
 }
 .pro__content {
   text-align: center;
-  margin: auto;
 }
 .pro__content img {
   max-height: 200px;
@@ -35,6 +39,8 @@ text-transform: uppercase;
 }
 .img__sec {
   height: 230px;
+  background: #fff;
+  width:100%;
 }
 .pro__content h5 {
   margin:0px;
@@ -51,4 +57,7 @@ text-transform: uppercase;
 .pro__content p span {
   font-weight: 700;
   font-size: 26px;
+}
+.Mens_sec {
+  height: 120px;
 }
