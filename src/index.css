@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Mens_sec > h1{
+text-align: center;
+color:#fff;
+text-transform: uppercase;
+}
+.menproduct {
+  max-width: 1000px;
+  margin: auto;
+}
+.pro__container {
+  display: grid;
+  gap:30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.pro__content {
+  text-align: center;
+  margin: auto;
+}
+.pro__content img {
+  max-height: 200px;
+  max-width: 200px;
+}
+.img__sec {
+  height: 230px;
+}
+.pro__content h5 {
+  margin:0px;
+  text-align: left;
+  font-size: 18px;
+}
+.pro__content p {
+  font-size: 20px;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+}
+.pro__content p span {
+  font-weight: 700;
+  font-size: 26px;
+}

@@ -1,12 +1,15 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-
+import Header from './Header'
+import './index.css'
+import Menp from './Component/Mensproduct';
 
 
 
  ReactDom.render(
  <>
-<h1>check this code </h1>
+<Header />
+<Menp />
  </>,
   document.getElementById("root")
  )

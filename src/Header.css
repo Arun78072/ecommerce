@@ -1,0 +1,16 @@
+.top_bar {
+    background: #3853d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px -2px black;
+}
+.top_bar > div > ul {
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    gap: 4px;
+}
+.header_comp {
+    background: #3853d8;
+}
